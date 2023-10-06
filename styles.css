@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.top{
+    height: 15%;
+    width: 100%;
+    border: solid rgb(156, 241, 156);
+    text-align: center;
+}
+.top h1{
+    font-size: 4rem;
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+.bottom{
+    min-height: 1440px;
+    text-align: center;
+    margin-top: 2rem;
+}
+.bottom p{
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bottom button{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    padding: 1.5rem 2rem;
+    background-color: white;
+    outline: none;
+    border: solid rgb(156, 241, 156);
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    z-index: 99;
+    display: none;
+}
+.bottom button:hover{
+    border:solid rgb(14, 244, 14);
+}
